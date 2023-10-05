@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/www', 'App\Http\Controllers\MyTest@index');
 
-
+Route::get('/profile', 'App\Http\Controllers\MyTest@profile');
 
 
 
